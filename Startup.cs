@@ -32,8 +32,12 @@ namespace GitTest
             {
                 endpoints.MapGet("/", async context =>
                 {
+<<<<<<< HEAD
                     await context.Response.WriteAsync("Hello World!");
                     await context.Response.WriteAsync("Hello Universe!");
+=======
+                    await context.Response.WriteAsync("Hello World!111111");
+>>>>>>> worldA
                 });
             });
         }
